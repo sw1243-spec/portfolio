@@ -1961,3 +1961,70 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   a { text-decoration: none !important; }
 }
+
+/* 화면에서는 인쇄 전용 요소 숨김 */
+.print-only { display: none; }
+
+@media print {
+
+  /* 인쇄 전용 헤더 — 사이트 주소를 PDF에 노출 */
+  .print-only { display: block !important; }
+  .print-header {
+    padding: 0 0 10px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #e8b53f;
+  }
+  .print-header strong {
+    display: block;
+    font-size: 15px;
+    color: #111 !important;
+    margin-bottom: 3px;
+  }
+  .print-header span {
+    font-size: 11px;
+    color: #666 !important;
+  }
+
+  /* 폭 확장 — 모바일 레이아웃의 좁은 컬럼 제거 */
+  main, .sidebar, .main-content, article {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  main { padding: 0 12px !important; }
+  .sidebar, .main-content { padding: 0 !important; border-radius: 0 !important; }
+  article { padding: 0 !important; }
+
+  /* 이름 아래 직함 칩: 흰 배경 위 흰 글씨 방지 */
+  .info-content .title {
+    background: transparent !important;
+    color: #444 !important;
+    padding: 2px 0 !important;
+    font-size: 13px !important;
+  }
+  .name { font-size: 22px !important; }
+  .avatar-box img { width: 70px !important; }
+
+  /* 프로필 카드: 가로 배치로 공간 절약 */
+  .sidebar-info { display: flex !important; align-items: center; gap: 14px; }
+  .contacts-list {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 18px;
+  }
+  .icon-box { display: none !important; }
+
+  /* 프로젝트 썸네일 확대 */
+  .project-img {
+    height: auto !important;
+    border-radius: 6px !important;
+    border: 1px solid #ddd !important;
+  }
+  .project-img img { height: auto !important; width: 100% !important; }
+  .project-title { font-size: 14px !important; }
+
+  /* 섹션 제목 */
+  .article-title { font-size: 22px !important; margin-bottom: 10px !important; }
+  .article-title::after { background: #e8b53f !important; }
+}
