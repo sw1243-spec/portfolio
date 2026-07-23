@@ -3,7 +3,7 @@
 **Manufacturing DX & Automation Engineer**
 I do the shop-floor work, then I automate it.
 
-🔗 **Live site**: <https://portfolio-ashy-nu-75.vercel.app/>
+🔗 **Live site**: <https://sewoonjin.vercel.app/>
 
 ## About
 

@@ -1884,3 +1884,80 @@ textarea.form-input::-webkit-resizer { display: none; }
 .avatar-box {
   background: transparent;
 }
+
+/* ─────────────────────────────────────────────────────────
+   PRINT / PDF — 탭으로 숨겨진 모든 섹션을 한 문서로 출력
+   (Ctrl+P → PDF로 저장 시 포트폴리오 전체가 담김)
+   ───────────────────────────────────────────────────────── */
+@media print {
+
+  :root {
+    --bg-gradient-onyx: #ffffff;
+    --bg-gradient-jet: #ffffff;
+    --eerie-black-1: #ffffff;
+    --eerie-black-2: #ffffff;
+    --smoky-black: #ffffff;
+    --jet: #d8d8d8;
+  }
+
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  main { padding: 0 !important; margin: 0 !important; }
+
+  /* 사이드바: 프로필 카드로 상단 고정 표시 */
+  .sidebar {
+    max-height: none !important;
+    width: 100% !important;
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+    border: none !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+  .sidebar-info_more { display: block !important; opacity: 1 !important; visibility: visible !important; }
+  .info_more-btn, .navbar { display: none !important; }
+
+  /* 숨겨진 탭 전부 펼치기 */
+  article { display: block !important; }
+  article[data-page] { page-break-before: always; }
+  article[data-page="about"] { page-break-before: auto; }
+
+  .main-content { width: 100% !important; }
+
+  /* 카드/컨테이너 배경 제거 */
+  .sidebar, .main-content, .service-item, .content-card,
+  .timeline-item, .skills-item, .project-item, .filter-item {
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  /* 텍스트 가독성 */
+  .h2, .h3, .h4, .h5, .name, .article-title,
+  .service-item-title, .timeline-item-title, .project-title,
+  .form-title, .contact-title {
+    color: #111 !important;
+  }
+  .service-item-text, .timeline-text, .about-text p,
+  .contact-link, address, .project-category, span, p, li, td {
+    color: #333 !important;
+  }
+  .separator { background: #ddd !important; }
+
+  /* 인쇄에 불필요한 요소 */
+  .filter-list, .filter-select-box, .mapbox,
+  #lang-toggle, #resume-download, .social-list { display: none !important; }
+
+  /* 프로젝트 그리드: 2열 유지 + 이미지 잘림 방지 */
+  .project-list { grid-template-columns: 1fr 1fr !important; gap: 14px !important; }
+  .project-item { page-break-inside: avoid; }
+  .project-img { background: #f4f4f4 !important; }
+  .project-img img { filter: none !important; }
+
+  .timeline-item, .service-item { page-break-inside: avoid; }
+
+  a { text-decoration: none !important; }
+}
