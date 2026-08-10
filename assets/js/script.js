@@ -261,8 +261,6 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".resume section:nth-of-type(3) .timeline-item:nth-child(3) span", "동원그룹 인재육성 프로그램 · 2023"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(3) .timeline-text", "기업 인재육성 프로그램에서 팀 케이스 프로젝트 2건과 임원 발표를 리드."],
 
-    [".skills-title", "보유 스킬"],
-
     // Portfolio
     [".portfolio .article-title", "포트폴리오"],
     [".filter-list .filter-item:nth-child(1) button", "전체"],
