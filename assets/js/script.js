@@ -211,7 +211,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
     // About
     [".about .article-title", "소개"],
-    [".about-text p:nth-of-type(1)", "현장 업무를 직접 해보고, 그 업무를 직접 자동화합니다. 품질관리(QC)와 IT의 교차점에서 종이 기반 현장 업무를 디지털화하고, 아무도 두 번 하고 싶지 않은 반복 보고 업무를 자동화합니다."],
+    [".about-text p:nth-of-type(1)", "현장에서 일하다, 그 현장에서 쓸 소프트웨어를 직접 만들었습니다. 품질관리(QC)와 IT의 교차점에서 종이 기반 현장 업무를 디지털화하고, 아무도 두 번 하고 싶지 않은 반복 보고 업무를 자동화합니다."],
     [".about-text p:nth-of-type(2)", "미시간의 자동차 부품사(Tier-1) Hansae Mobility USA에서 QC 인턴으로 근무하며 현장 감사, 리워크 재고 실사, 문서관리 등 품질 실무를 직접 수행했고, 부서의 디지털화 시스템 전반을 구축했습니다 — 생산라인 10개·파트넘버 약 50종을 관리하는 운영 웹앱, 월 약 10시간의 수작업을 줄인 Excel/VBA 자동화, 다국어 작업지시서 번역 도구까지. 인턴 종료 후에는 개인사업자를 등록했고, 회사와 외주 계약을 맺어 개발·유지보수를 이어가고 있습니다."],
     [".service-title", "하는 일"],
     [".service-list .service-item:nth-child(1) .service-item-title", "QC 디지털화"],
@@ -227,7 +227,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".resume .article-title", "이력"],
     [".resume section:nth-of-type(1) .title-wrapper h3", "경력"],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(1) .timeline-item-title", "소프트웨어 외주 개발 (개인사업자) — Hansae Mobility USA (원격)"],
-    [".resume section:nth-of-type(1) .timeline-item:nth-child(1) span", "2026.07 — 현재"],
+    [".resume section:nth-of-type(1) .timeline-item:nth-child(1) span", "2026.08 — 현재"],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(1) .timeline-text", "인턴십 종료 후 개인사업자를 등록해 B2B 외주 계약 체결 — 신규 사내 도구 개발과 QC 디지털화 시스템 유지·확장을 미국 QC·IT팀과 원격으로 협업 중. 교대 스케줄러 앱은 생산 현장 도입 완료, QC 체크시트 웹앱은 전면 도입을 앞둔 최종 파일럿 진행 중."],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(2) .timeline-item-title", "품질관리(QC) 인턴 — Hansae Mobility USA (미시간 폰티악)"],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(2) span", "2026.01 — 2026.06"],
@@ -278,6 +278,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".project-list .project-item:nth-child(4) .project-category", "자동화·데이터 — Excel · VBA"],
     [".project-list .project-item:nth-child(5) .project-category", "자동화·데이터 — SQL · ERD"],
     [".project-list .project-item:nth-child(6) .project-category", "자동화·데이터 — Claude · Codex · 우수상"],
+    [".project-list .project-item:nth-child(7) .project-category", "자동화·데이터 — Python · GeoPandas · scikit-learn"],
 
     // Contact
     [".contact .article-title", "연락처"],
