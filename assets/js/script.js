@@ -226,9 +226,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
     // Resume
     [".resume .article-title", "이력"],
     [".resume section:nth-of-type(1) .title-wrapper h3", "경력"],
-    [".resume section:nth-of-type(1) .timeline-item:nth-child(1) .timeline-item-title", "컨설팅·소프트웨어 개발 외주 (개인사업자) — Hansae Mobility USA (원격)"],
+    [".resume section:nth-of-type(1) .timeline-item:nth-child(1) .timeline-item-title", "세이원 (개인사업자) — 컨설팅·소프트웨어 개발 외주"],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(1) span", "2026.08 — 현재"],
-    [".resume section:nth-of-type(1) .timeline-item:nth-child(1) .timeline-text", "인턴십 종료 후 개인사업자를 등록해 B2B 외주 계약 체결. 미국 QC·IT팀과 원격으로 협업하며 SOP·품질 문서 작성과 프로젝트 마무리·인수인계를 지원하고, QC 디지털화 시스템을 유지·확장 중. 교대 스케줄러 앱은 생산 현장 도입 완료, QC 체크시트 웹앱은 전면 도입을 앞둔 최종 파일럿 진행 중."],
+    [".resume section:nth-of-type(1) .timeline-item:nth-child(1) .timeline-text", "인턴십 종료 후 개인사업자를 등록해 Hansae Mobility USA와 B2B 외주 계약 체결. 미국 QC·IT팀과 원격으로 협업하며 SOP·품질 문서 작성과 프로젝트 마무리·인수인계를 지원하고, QC 디지털화 시스템을 유지·확장 중. 교대 스케줄러 앱은 생산 현장 도입 완료, QC 체크시트 웹앱은 전면 도입을 앞둔 최종 파일럿 진행 중."],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(2) .timeline-item-title", "품질관리(QC) 인턴 — Hansae Mobility USA (미시간 폰티악)"],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(2) span", "2026.01 — 2026.06"],
     [".resume section:nth-of-type(1) .timeline-item:nth-child(2) .timeline-text", "현장 감사, 품질 알림 후속 조치, 리워크 재고 실사, 문서관리 등 품질 실무를 직접 수행한 뒤, 부서 유일의 개발 담당으로서 같은 업무를 디지털화. OEM 프로그램 2개·라인 10개·파트넘버 약 50종을 커버하는 QC 체크시트 웹앱(Next.js · Prisma · SQL Server) 구축, 반복 Excel 보고서 6종 VBA 자동화, 생산 관리자 약 15명 교육."],
@@ -277,6 +277,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".project-list .project-item:nth-child(6) .project-highlights li:nth-child(2)", "사내 AI 활용 경진대회 우수상 수상"],
     [".project-list .project-item:nth-child(7) .project-highlights li:nth-child(1)", "500m 격자 기반 랜덤포레스트 입지 스코어링"],
     [".project-list .project-item:nth-child(7) .project-highlights li:nth-child(2)", "2024년 QGIS 연구를 원커맨드 파이프라인으로 재구축"],
+    [".project-list .project-item:nth-child(8) .project-highlights li:nth-child(1)", "고객이 고령일수록 가맹점이 나가지도 들어오지도 않음"],
+    [".project-list .project-item:nth-child(8) .project-highlights li:nth-child(2)", "닫힘만 세는 지표가 안정으로 읽는 5개 구를 포착"],
     [".filter-list .filter-item:nth-child(1) button", "전체"],
     [".filter-list .filter-item:nth-child(2) button", "웹 앱"],
     [".filter-list .filter-item:nth-child(3) button", "데스크톱 앱"],
@@ -293,6 +295,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".project-list .project-item:nth-child(5) .project-category", "자동화·데이터 — SQL · ERD"],
     [".project-list .project-item:nth-child(6) .project-category", "자동화·데이터 — Claude · Codex · 우수상"],
     [".project-list .project-item:nth-child(7) .project-category", "자동화·데이터 — Python · GeoPandas · scikit-learn"],
+    [".project-list .project-item:nth-child(8) .project-category", "자동화·데이터 — Python · 부산 데이터 오픈랩"],
 
     // Contact
     [".contact .article-title", "연락처"],
