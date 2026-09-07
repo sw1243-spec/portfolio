@@ -194,7 +194,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   // [selector, 한국어] — 셀렉터는 요소 하나만 가리켜야 함
   const KO = [
     // 사이드바
-    [".sidebar .title", "제조 DX 엔지니어"],
+    [".sidebar .title", "사업개발"],
     ["[data-sidebar-btn] span", "연락처 보기"],
     ["#resume-download span", "이력서 다운로드"],
     [".contacts-list .contact-item:nth-child(1) .contact-title", "이메일"],
