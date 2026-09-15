@@ -211,7 +211,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
     // About
     [".about .article-title", "소개"],
-    [".about-text p:nth-of-type(1)", "국제통상학을 공부하면서, 공장이 실제로 어떻게 돌아가는지는 미시간에서 6개월 동안 배웠습니다. 자동차 부품사(Tier-1)의 품질관리 부서에서 현장 감사, 문서관리, 리워크 재고 실사를 직접 했습니다. 일 자체는 문제가 없었는데, 그 일을 둘러싼 서류가 문제였습니다. QC 매니저와 요건을 정리하고 경영진 승인을 받은 뒤 직접 만들었고, 지금 그걸 쓰는 현장 감독자 교육까지 맡았습니다."],
+    [".about-text p:nth-of-type(1)", "국제통상학을 공부하면서, 공장이 실제로 어떻게 돌아가는지는 미시간에서 6개월 동안 배웠습니다. 미시간에 가기까지는 부경대 교환학생으로서 전례가 없던 과정을 거쳤습니다. 원래 교환 대학은 한 곳만 지원할 수 있지만, 학교 승인을 받아 미국 대학 두 곳에서 공부했습니다. 또 부경대 교환학생 중 아무도 활용한 적 없던 J-1 Academic Training(전공과 관련된 실무 연수)이라는 길을 찾아 양교 국제교류 담당 부서에 협약을 제안했습니다. 두 학교가 협약을 맺을 때까지 함께 절차를 밟았고, 승인을 받아 교환학생을 마친 뒤에도 미국에 남을 수 있었습니다. 그렇게 일하게 된 곳이 자동차 부품사(Tier-1)의 품질관리 부서였고, 현장 감사, 문서관리, 리워크 재고 실사를 직접 했습니다. 일 자체는 문제가 없었는데, 그 일을 둘러싼 서류가 문제였습니다. QC 매니저와 요건을 정리하고 경영진 승인을 받은 뒤 직접 만들었고, 지금 그걸 쓰는 현장 감독자 교육까지 맡았습니다."],
     [".about-text p:nth-of-type(2)", "그게 계약으로 이어졌습니다. 한국에서 개인사업자를 등록했고, Hansae Mobility USA와 외주 계약을 맺었습니다. 지금은 부산에서 SOP 작성과 프로젝트 마무리를 맡고, 미국 QC·IT팀과 함께 시스템을 유지하고 있습니다. 분석 쪽 일도 합니다 — AI 하드웨어 제품의 스웨덴 시장 진입 리서치, 부산항만공사·부산연구원 무역물류 공모전 1위, 올해는 고령 상권이 왜 신진대사를 멈추는지 다룬 시 빅데이터 공모전 출품작까지. 현장을 아는 것이 우회로가 아니라 강점이 되는 사업개발 일을 찾고 있습니다."],
     [".service-title", "하는 일"],
     [".service-list .service-item:nth-child(1) .service-item-title", "QC 디지털화"],
@@ -241,11 +241,11 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
     [".resume section:nth-of-type(2) .title-wrapper h3", "학력"],
     [".resume section:nth-of-type(2) .timeline-item:nth-child(1) .timeline-item-title", "부경대학교"],
-    [".resume section:nth-of-type(2) .timeline-item:nth-child(1) span", "2027년 졸업예정"],
-    [".resume section:nth-of-type(2) .timeline-item:nth-child(1) .timeline-text", "국제통상학·빅데이터융합 복수전공. 부산."],
+    [".resume section:nth-of-type(2) .timeline-item:nth-child(1) span", "2027년 8월 졸업예정"],
+    [".resume section:nth-of-type(2) .timeline-item:nth-child(1) .timeline-text", "국제통상학·빅데이터융합 복수전공. 부산. 교환 대학은 한 곳만 지원할 수 있지만 학교 승인을 받아 미국 대학 두 곳에서 교환학생 과정 수료(부경대 학생으로는 처음)."],
     [".resume section:nth-of-type(2) .timeline-item:nth-child(2) .timeline-item-title", "Wayne State University — 교환학생"],
     [".resume section:nth-of-type(2) .timeline-item:nth-child(2) span", "2025.05 — 2025.12"],
-    [".resume section:nth-of-type(2) .timeline-item:nth-child(2) .timeline-text", "미국 자동차 산업의 중심지, 디트로이트에서 교환학생 과정 수료."],
+    [".resume section:nth-of-type(2) .timeline-item:nth-child(2) .timeline-text", "미국 자동차 산업의 중심지, 디트로이트에서 교환학생 과정 수료. 부경대와 웨인주립대 간 J-1 Academic Training 협약을 직접 제안하고, 양교 국제교류 담당 부서와 함께 체결까지 절차를 진행. 이후 Hansae Mobility USA에서 Academic Training을 마침(부경대 교환학생으로는 처음)."],
     [".resume section:nth-of-type(2) .timeline-item:nth-child(3) .timeline-item-title", "Georgia College & State University — 교환학생"],
     [".resume section:nth-of-type(2) .timeline-item:nth-child(3) span", "2025.01 — 2025.05"],
     [".resume section:nth-of-type(2) .timeline-item:nth-child(3) .timeline-text", "미국 조지아주 밀리지빌에서 교환학생 과정 수료."],
