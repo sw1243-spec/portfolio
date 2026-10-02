@@ -194,7 +194,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   // [selector, 한국어] — 셀렉터는 요소 하나만 가리켜야 함
   const KO = [
     // 사이드바
-    [".sidebar .title", "사업개발"],
+    [".sidebar .title", "사업개발 · 프로젝트 관리"],
     ["[data-sidebar-btn] span", "연락처 보기"],
     ["#resume-download span", "이력서 다운로드"],
     [".contacts-list .contact-item:nth-child(1) .contact-title", "이메일"],
@@ -212,16 +212,20 @@ for (let i = 0; i < navigationLinks.length; i++) {
     // About
     [".about .article-title", "소개"],
     [".about-text p:nth-of-type(1)", "국제통상학을 공부하면서 공장이 실제로 어떻게 돌아가는지는 미시간에서 6개월 동안 배웠습니다. 미시간에 가기까지는 부경대 교환학생으로서 전례가 없던 과정을 거쳤습니다. 원래 교환 대학은 한 곳만 지원할 수 있지만 학교 승인을 받아 미국 대학 두 곳에서 공부했습니다. 또 부경대 교환학생 중 아무도 활용한 적 없던 J-1 Academic Training(전공과 관련된 실무 연수)이라는 길을 찾아 양교 국제교류 담당 부서에 협약을 제안했습니다. 두 학교가 협약을 맺을 때까지 함께 절차를 밟았고 승인을 받아 교환학생을 마친 뒤에도 미국에 남을 수 있었습니다. 그렇게 일하게 된 곳이 자동차 부품사(Tier-1)의 품질관리 부서였습니다. 현장 감사와 문서관리, 리워크 재고 실사를 직접 했습니다. 일 자체보다 그 일을 둘러싼 서류가 문제였습니다. QC 매니저와 요건을 정리하고 경영진 승인을 받은 뒤 시스템을 직접 만들었고 지금 그 시스템을 쓰는 현장 감독자 교육까지 맡았습니다."],
-    [".about-text p:nth-of-type(2)", "이 일이 계기가 되어 한국에서 개인사업자를 등록하고 Hansae Mobility USA와 외주 계약을 맺었습니다. 지금은 부산에서 SOP 작성과 프로젝트 마무리를 맡고 미국 QC·IT팀과 함께 시스템을 유지하고 있습니다. 분석 쪽 일도 합니다. AI 하드웨어 제품의 스웨덴 시장 진입 리서치를 했고 부산항만공사·부산연구원 무역물류 공모전에서 1위를 했습니다. 올해는 고령 상권이 왜 신진대사를 멈추는지 분석해 시 빅데이터 공모전에 출품했습니다. 현장을 아는 것이 강점이 되는 사업개발 일을 찾고 있습니다."],
+    [".about-text p:nth-of-type(2)", "이 일이 계기가 되어 한국에서 개인사업자를 등록하고 Hansae Mobility USA와 외주 계약을 맺었습니다. 지금은 부산에서 SOP 작성과 프로젝트 마무리를 맡고 미국 QC·IT팀과 함께 시스템을 유지하고 있습니다. 분석 쪽 일도 합니다. AI 하드웨어 제품의 스웨덴 시장 진입 리서치를 했고 부산항만공사·부산연구원 무역물류 공모전에서 1위를 했습니다. 올해는 고령 상권이 왜 신진대사를 멈추는지 분석해 시 빅데이터 공모전에 출품했습니다. 현장을 아는 것이 강점이 되는 사업개발·프로젝트 관리 일을 찾고 있습니다."],
     [".service-title", "하는 일"],
-    [".service-list .service-item:nth-child(1) .service-item-title", "QC 디지털화"],
-    [".service-list .service-item:nth-child(1) .service-item-text", "종이 체크시트를 운영 웹앱으로 전환. 규격 검증, SPC 관리도, 교대 추적, 자동 리포트 지원."],
-    [".service-list .service-item:nth-child(2) .service-item-title", "업무 자동화"],
-    [".service-list .service-item:nth-child(2) .service-item-text", "Excel/VBA·Python 도구로 몇 시간 걸리던 반복 보고 업무를 몇 분 안에 끝냅니다."],
-    [".service-list .service-item:nth-child(3) .service-item-title", "AI 활용 개발"],
-    [".service-list .service-item:nth-child(3) .service-item-text", "보안 가드레일을 포함한 설계 → 구현 → 검증 → 배포 표준 파이프라인. 사내 대회 수상."],
-    [".service-list .service-item:nth-child(4) .service-item-title", "데이터·ERP 분석"],
-    [".service-list .service-item:nth-child(4) .service-item-text", "실제 공장 데이터를 SQL로 분석해 ERD 문서화, 테이블 명세, 보고서 연동까지 진행."],
+    [".service-list .service-item:nth-child(1) .service-item-title", "사업개발"],
+    [".service-list .service-item:nth-child(1) .service-item-text", "스웨덴 시장 진출 리서치를 이끌었고 부산항만공사 무역물류 공모전에서 1위를 했습니다. 직접 등록한 개인사업자로 미국 기업과 B2B 외주 계약을 맺었습니다."],
+    [".service-list .service-item:nth-child(2) .service-item-title", "프로젝트 관리"],
+    [".service-list .service-item:nth-child(2) .service-item-text", "QC 체크시트 웹앱을 요건 정리부터 현장 도입까지 맡았습니다. QC 매니저와 범위를 정하고 경영진 승인을 받아 현장 감독자 약 15명을 교육했고, 지금은 프로젝트 마무리와 인수인계를 담당합니다."],
+    [".service-list .service-item:nth-child(3) .service-item-title", "QC 디지털화"],
+    [".service-list .service-item:nth-child(3) .service-item-text", "종이 체크시트를 운영 웹앱으로 전환. 규격 검증, SPC 관리도, 교대 추적, 자동 리포트 지원."],
+    [".service-list .service-item:nth-child(4) .service-item-title", "업무 자동화"],
+    [".service-list .service-item:nth-child(4) .service-item-text", "Excel/VBA·Python 도구로 몇 시간 걸리던 반복 보고 업무를 몇 분 안에 끝냅니다."],
+    [".service-list .service-item:nth-child(5) .service-item-title", "AI 활용 개발"],
+    [".service-list .service-item:nth-child(5) .service-item-text", "보안 가드레일을 포함한 설계 → 구현 → 검증 → 배포 표준 파이프라인. 사내 대회 수상."],
+    [".service-list .service-item:nth-child(6) .service-item-title", "데이터·ERP 분석"],
+    [".service-list .service-item:nth-child(6) .service-item-text", "실제 공장 데이터를 SQL로 분석해 ERD 문서화, 테이블 명세, 보고서 연동까지 진행."],
 
     // Resume
     [".resume .article-title", "이력"],
