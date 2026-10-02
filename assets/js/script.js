@@ -348,4 +348,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     navList.appendChild(li);
   }
 
+  // 명함 국문 QR(swj.app/#ko)로 들어오면 한국어로 시작
+  if (location.hash === "#ko") applyLang("ko");
+
 })();
