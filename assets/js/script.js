@@ -257,7 +257,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".resume section:nth-of-type(3) .title-wrapper h3", "수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-item-title", "Anchor Startup League 우수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) span", "부경대 앵커본부 · 교육부 · 2026"],
-    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-text", "부경대 창업경진대회 A트랙. 해외 공장 품질을 원격으로 관리하는 세이원(SAYWON)으로 국립부경대학교 앵커본부장상 수상, 시상금 50만 원."],
+    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-text", "부경대 창업경진대회 A트랙. 해외 공장 품질을 원격으로 관리하는 세이원(SAYWON)으로 국립부경대학교 앵커본부장상 수상, 시상금 50만 원. 후속으로 싱가포르 Anchor Global Camp(2026년 10월)에 선발되어 영문 IR 피칭을 하고 현대자동차그룹 싱가포르 글로벌 혁신센터(HMGICS)와 SWITCH 2026을 방문."],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) .timeline-item-title", "AI Startup Studio 우수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) span", "교육부 · 부산라이즈혁신원 · 2026"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) .timeline-text", "1박 2일 AI 기반 MVP 구체화 실습 프로그램. 1인 팀으로 참가해 데모데이에서 해외 공장 품질을 원격으로 관리하는 세이원(SAYWON) MVP를 시연하고 IR 발표."],
