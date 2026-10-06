@@ -14,6 +14,8 @@ Featured work:
 
 | Project | Stack |
 | --- | --- |
+| Visual Aid Translator (offline, internal) | Python · CTranslate2 · MADLAD-400 |
+| Training Interface (internal) | FastAPI · Next.js · SQLite |
 | [QC Checklist Web App](https://github.com/sw1243-spec/qc-checklist) | Next.js · Prisma · SQL Server |
 | [Shift Scheduler](https://github.com/sw1243-spec/ShiftScheduler) | Python · Tkinter · FastAPI |
 | [Work Instruction Translator](https://github.com/sw1243-spec/WorkInstruction-Translator) | Python · DeepL / OpenAI / Claude |
