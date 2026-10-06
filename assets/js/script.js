@@ -270,12 +270,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
     // Portfolio
     [".portfolio .article-title", "포트폴리오"],
-    [".project-list .project-item:nth-child(1) .project-highlights li:nth-child(1)", "Office 문서·PDF를 5개 언어로, 완전 오프라인"],
-    [".project-list .project-item:nth-child(1) .project-highlights li:nth-child(2)", "한국어·벵골어 원어민 채점 97~99% 사용 가능"],
-    [".project-list .project-item:nth-child(2) .project-highlights li:nth-child(1)", "라인의 종이 교육 서명지를 대체하도록 구축"],
-    [".project-list .project-item:nth-child(2) .project-highlights li:nth-child(2)", "문서 Rev 연동 교육 기록, IATF 16949 심사 팩"],
-    [".project-list .project-item:nth-child(1) .project-category", "데스크톱 앱 | Python · 오프라인 기계번역"],
-    [".project-list .project-item:nth-child(2) .project-category", "웹 앱 | FastAPI · Next.js · 터치스크린"],
+    [".project-list .project-item:nth-child(2) .project-highlights li:nth-child(1)", "Office 문서·PDF를 5개 언어로, 완전 오프라인"],
+    [".project-list .project-item:nth-child(2) .project-highlights li:nth-child(2)", "한국어·벵골어 원어민 채점 97~99% 사용 가능"],
+    [".project-list .project-item:nth-child(1) .project-highlights li:nth-child(1)", "라인의 종이 교육 서명지를 대체하도록 구축"],
+    [".project-list .project-item:nth-child(1) .project-highlights li:nth-child(2)", "문서 Rev 연동 교육 기록, IATF 16949 심사 팩"],
+    [".project-list .project-item:nth-child(2) .project-category", "데스크톱 앱 | Python · 오프라인 기계번역"],
+    [".project-list .project-item:nth-child(1) .project-category", "웹 앱 | FastAPI · Next.js · 터치스크린"],
     [".project-list .project-item:nth-child(3) .project-highlights li:nth-child(1)", "생산라인 10개·파트넘버 약 50종, 현장 파일럿 중"],
     [".project-list .project-item:nth-child(3) .project-highlights li:nth-child(2)", "규격 검증, SPC 관리도, 일일 자동 이메일 리포트"],
     [".project-list .project-item:nth-child(4) .project-highlights li:nth-child(1)", "수작업 교대 배정 스프레드시트를 대체"],
