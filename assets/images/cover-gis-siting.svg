@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#323234"/>
+      <stop offset="1" stop-color="#1c1c1e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="4" fill="#ffdb70" opacity="0.9"/>
+  <text x="64" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="4" fill="#ffdb70">GIS · SPATIAL ANALYSIS</text>
+  <text x="62" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" fill="#fafafa">Smoking Booth</text>
+  <text x="62" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" fill="#fafafa">Siting — Seoul</text>
+  <text x="64" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#9a9a9c">Random forest weights · 500 m grid · 298 cells</text>
+
+  <g transform="translate(525,130)">
+    <!-- suitability heat cells, low → high -->
+    <g shape-rendering="crispEdges">
+      <rect x="0"   y="0"   width="38" height="37" fill="#2f2f31"/>
+      <rect x="38"  y="0"   width="38" height="37" fill="#2f2f31"/>
+      <rect x="76"  y="0"   width="38" height="37" fill="#4a4230"/>
+      <rect x="114" y="0"   width="38" height="37" fill="#4a4230"/>
+      <rect x="152" y="0"   width="38" height="37" fill="#2f2f31"/>
+
+      <rect x="0"   y="37"  width="38" height="37" fill="#2f2f31"/>
+      <rect x="38"  y="37"  width="38" height="37" fill="#4a4230"/>
+      <rect x="76"  y="37"  width="38" height="37" fill="#8f7529"/>
+      <rect x="114" y="37"  width="38" height="37" fill="#6b5a2e"/>
+      <rect x="152" y="37"  width="38" height="37" fill="#4a4230"/>
+
+      <rect x="0"   y="74"  width="38" height="37" fill="#4a4230"/>
+      <rect x="38"  y="74"  width="38" height="37" fill="#8f7529"/>
+      <rect x="76"  y="74"  width="38" height="37" fill="#ffdb70"/>
+      <rect x="114" y="74"  width="38" height="37" fill="#bf9a24"/>
+      <rect x="152" y="74"  width="38" height="37" fill="#4a4230"/>
+
+      <rect x="0"   y="111" width="38" height="37" fill="#2f2f31"/>
+      <rect x="38"  y="111" width="38" height="37" fill="#4a4230"/>
+      <rect x="76"  y="111" width="38" height="37" fill="#6b5a2e"/>
+      <rect x="114" y="111" width="38" height="37" fill="#4a4230"/>
+      <rect x="152" y="111" width="38" height="37" fill="#2f2f31"/>
+    </g>
+
+    <!-- grid lines -->
+    <g stroke="#5a5a5c" stroke-width="1">
+      <line x1="38"  y1="0" x2="38"  y2="148"/>
+      <line x1="76"  y1="0" x2="76"  y2="148"/>
+      <line x1="114" y1="0" x2="114" y2="148"/>
+      <line x1="152" y1="0" x2="152" y2="148"/>
+      <line x1="0" y1="37"  x2="190" y2="37"/>
+      <line x1="0" y1="74"  x2="190" y2="74"/>
+      <line x1="0" y1="111" x2="190" y2="111"/>
+    </g>
+
+    <rect x="0" y="0" width="190" height="148" rx="10" stroke="#ffdb70" stroke-width="3" fill="none"/>
+
+    <!-- selected site marker on the highest-scoring cell -->
+    <g transform="translate(95,92)">
+      <path d="M 0 10 C -9 -1 -9 -13 0 -13 C 9 -13 9 -1 0 10 Z" fill="#1c1c1e"/>
+      <circle cx="0" cy="-6" r="3.4" fill="#ffdb70"/>
+    </g>
+  </g>
+</svg>

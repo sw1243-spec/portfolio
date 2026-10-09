@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Codex CLI를 활용한 코딩 AI 에이전트 반복 개발 화면 예시</title>
+  <desc id="desc">계획, 실행, 피드백과 오류 수정, 검증 단계를 반복하는 코딩 AI 에이전트의 터미널 작업 화면 구성 예시</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10243d"/>
+      <stop offset="1" stop-color="#091522"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2b7fd0"/>
+      <stop offset="1" stop-color="#1f9d6b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#07111c" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="#eef1f5"/>
+  <rect x="68" y="56" width="1464" height="788" rx="26" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="68" y="56" width="1464" height="64" rx="26" fill="#172f4c"/>
+  <rect x="68" y="94" width="1464" height="26" fill="#172f4c"/>
+  <circle cx="112" cy="88" r="10" fill="#c83a35"/>
+  <circle cx="146" cy="88" r="10" fill="#b66a00"/>
+  <circle cx="180" cy="88" r="10" fill="#1f9d6b"/>
+  <text x="220" y="96" fill="#dce8f5" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Windows PowerShell · Codex CLI · qc-checklist</text>
+  <text x="1478" y="95" text-anchor="end" fill="#91aac2" font-family="Segoe UI, Malgun Gothic, sans-serif" font-size="17">코딩 AI 에이전트 활용 화면 구성 예시</text>
+
+  <rect x="108" y="160" width="910" height="626" rx="14" fill="#08131f" stroke="#294967" stroke-width="2"/>
+  <text x="142" y="204" fill="#8aa6c1" font-family="Cascadia Mono, Consolas, monospace" font-size="21">PS C:\qc-checklist&gt;</text>
+  <text x="142" y="242" fill="#f2f7fb" font-family="Cascadia Mono, Consolas, monospace" font-size="21">codex exec --full-auto "QC 제출물을 점검하고 완성도를 높여줘"</text>
+
+  <rect x="136" y="274" width="840" height="2" fill="#1b3853"/>
+  <text x="142" y="320" fill="#58a9f0" font-family="Cascadia Mono, Consolas, monospace" font-size="20" font-weight="700">[PLAN]</text>
+  <text x="248" y="320" fill="#d7e4ef" font-family="Cascadia Mono, Consolas, monospace" font-size="20">요구사항과 기존 자료를 확인하고 작업 순서를 수립</text>
+  <text x="176" y="356" fill="#819bb3" font-family="Cascadia Mono, Consolas, monospace" font-size="18">1. 화면과 이미지 구조 점검</text>
+  <text x="176" y="388" fill="#819bb3" font-family="Cascadia Mono, Consolas, monospace" font-size="18">2. 누락 증빙과 설명 보강</text>
+  <text x="176" y="420" fill="#819bb3" font-family="Cascadia Mono, Consolas, monospace" font-size="18">3. 테스트와 렌더링 검증</text>
+
+  <text x="142" y="474" fill="#53c6b1" font-family="Cascadia Mono, Consolas, monospace" font-size="20" font-weight="700">[EXECUTE]</text>
+  <text x="274" y="474" fill="#d7e4ef" font-family="Cascadia Mono, Consolas, monospace" font-size="20">파일 분석 · 코드 수정 · 증빙 화면 연결</text>
+  <text x="176" y="510" fill="#819bb3" font-family="Cascadia Mono, Consolas, monospace" font-size="18">→ report_images/AI_Contest_Submission.html</text>
+  <text x="176" y="542" fill="#819bb3" font-family="Cascadia Mono, Consolas, monospace" font-size="18">→ responsive layout and print rules updated</text>
+
+  <text x="142" y="596" fill="#ef7d78" font-family="Cascadia Mono, Consolas, monospace" font-size="20" font-weight="700">[FEEDBACK]</text>
+  <text x="286" y="596" fill="#d7e4ef" font-family="Cascadia Mono, Consolas, monospace" font-size="20">모바일 한글 제목 줄바꿈 문제 감지</text>
+  <text x="176" y="632" fill="#f0a3a0" font-family="Cascadia Mono, Consolas, monospace" font-size="18">Issue: 제목이 단어 중간에서 분리됨</text>
+
+  <text x="142" y="682" fill="#f0b967" font-family="Cascadia Mono, Consolas, monospace" font-size="20" font-weight="700">[FIX]</text>
+  <text x="218" y="682" fill="#d7e4ef" font-family="Cascadia Mono, Consolas, monospace" font-size="20">한국어 줄바꿈 규칙과 모바일 글자 크기 조정</text>
+
+  <text x="142" y="736" fill="#57d18c" font-family="Cascadia Mono, Consolas, monospace" font-size="20" font-weight="700">[VERIFY]</text>
+  <text x="260" y="736" fill="#d7e4ef" font-family="Cascadia Mono, Consolas, monospace" font-size="20">30 tests passed · Typecheck passed · 3 breakpoints checked</text>
+  <rect x="142" y="758" width="790" height="10" rx="5" fill="#17354a"/>
+  <rect x="142" y="758" width="790" height="10" rx="5" fill="url(#accent)"/>
+
+  <g font-family="Segoe UI, Malgun Gothic, sans-serif">
+    <text x="1072" y="184" fill="#8da8c2" font-size="17" font-weight="700" letter-spacing="1.4">AUTONOMOUS DEVELOPMENT LOOP</text>
+
+    <rect x="1070" y="212" width="398" height="112" rx="14" fill="#132d49" stroke="#2b7fd0" stroke-width="2"/>
+    <circle cx="1120" cy="268" r="27" fill="#2b7fd0"/>
+    <text x="1120" y="277" text-anchor="middle" fill="white" font-size="25" font-weight="800">1</text>
+    <text x="1166" y="256" fill="#ffffff" font-size="23" font-weight="700">계획</text>
+    <text x="1166" y="286" fill="#9eb5ca" font-size="17">목표·제약·검증 기준을 작업 순서로 정리</text>
+
+    <path d="M1269 328v28" stroke="#5d7d98" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1259 348l10 12 10-12" fill="none" stroke="#5d7d98" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="1070" y="364" width="398" height="112" rx="14" fill="#123640" stroke="#1f9d6b" stroke-width="2"/>
+    <circle cx="1120" cy="420" r="27" fill="#1f9d6b"/>
+    <text x="1120" y="429" text-anchor="middle" fill="white" font-size="25" font-weight="800">2</text>
+    <text x="1166" y="408" fill="#ffffff" font-size="23" font-weight="700">실행</text>
+    <text x="1166" y="438" fill="#9ebdb8" font-size="17">코드 작성·파일 수정·도구 실행</text>
+
+    <path d="M1269 480v28" stroke="#5d7d98" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1259 500l10 12 10-12" fill="none" stroke="#5d7d98" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="1070" y="516" width="398" height="112" rx="14" fill="#3b2630" stroke="#c83a35" stroke-width="2"/>
+    <circle cx="1120" cy="572" r="27" fill="#c83a35"/>
+    <text x="1120" y="581" text-anchor="middle" fill="white" font-size="25" font-weight="800">3</text>
+    <text x="1166" y="560" fill="#ffffff" font-size="23" font-weight="700">피드백·오류 수정</text>
+    <text x="1166" y="590" fill="#d4a9ad" font-size="17">실패 원인을 확인하고 스스로 보완</text>
+
+    <path d="M1269 632v28" stroke="#5d7d98" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1259 652l10 12 10-12" fill="none" stroke="#5d7d98" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="1070" y="668" width="398" height="112" rx="14" fill="#15362c" stroke="#35b978" stroke-width="2"/>
+    <circle cx="1120" cy="724" r="27" fill="#35b978"/>
+    <text x="1120" y="733" text-anchor="middle" fill="white" font-size="25" font-weight="800">4</text>
+    <text x="1166" y="712" fill="#ffffff" font-size="23" font-weight="700">검증</text>
+    <text x="1166" y="742" fill="#a3c9b7" font-size="17">테스트·타입·화면 결과로 완료 여부 판단</text>
+
+    <path d="M1456 669c45-173 30-349-77-449" fill="none" stroke="#2b7fd0" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12"/>
+    <path d="M1384 214l-21 2 8 20" fill="none" stroke="#2b7fd0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

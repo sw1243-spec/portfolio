@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#323234"/>
+      <stop offset="1" stop-color="#1c1c1e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="4" fill="#ffdb70" opacity="0.9"/>
+  <text x="64" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="4" fill="#ffdb70">URBAN DATA · BUSAN OPEN LAB</text>
+  <text x="62" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" fill="#fafafa">Small-Business</text>
+  <text x="62" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" fill="#fafafa">Early Warning</text>
+  <text x="64" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#9a9a9c">16 districts · Spearman −0.61 · 5 stalled</text>
+
+  <g transform="translate(525,130)">
+    <!-- plot frame -->
+    <rect x="0" y="0" width="190" height="148" rx="10" fill="#242426"/>
+
+    <!-- median guides: below-and-below quadrant is the stalled zone -->
+    <rect x="118" y="62" width="72" height="86" rx="0" fill="#ffdb70" opacity="0.07"/>
+    <g stroke="#4a4a4c" stroke-width="1" stroke-dasharray="3 3">
+      <line x1="118" y1="0" x2="118" y2="148"/>
+      <line x1="0" y1="62" x2="190" y2="62"/>
+    </g>
+
+    <!-- trend: elderly share up, merchant turnover down -->
+    <line x1="14" y1="34" x2="180" y2="112" stroke="#ffdb70" stroke-width="2" stroke-dasharray="6 4" opacity="0.55"/>
+
+    <!-- districts at median or above on turnover -->
+    <g fill="#8a8a8c">
+      <circle cx="75" cy="6" r="4"/>
+      <circle cx="121" cy="26" r="4"/>
+      <circle cx="112" cy="37" r="4"/>
+      <circle cx="141" cy="48" r="4"/>
+      <circle cx="110" cy="52" r="4"/>
+      <circle cx="117" cy="58" r="4"/>
+      <circle cx="103" cy="61" r="4"/>
+      <circle cx="124" cy="62" r="4"/>
+      <circle cx="10" cy="71" r="4"/>
+      <circle cx="112" cy="74" r="4"/>
+    </g>
+
+    <!-- the five stalled districts -->
+    <g fill="#ffdb70">
+      <circle cx="169" cy="67" r="5"/>
+      <circle cx="127" cy="76" r="5"/>
+      <circle cx="152" cy="82" r="5"/>
+      <circle cx="174" cy="109" r="5"/>
+      <circle cx="144" cy="136" r="5"/>
+    </g>
+
+    <!-- the counter-example: oldest customers, still opening -->
+    <circle cx="176" cy="87" r="5.5" fill="none" stroke="#ffdb70" stroke-width="2"/>
+
+    <rect x="0" y="0" width="190" height="148" rx="10" stroke="#ffdb70" stroke-width="3" fill="none"/>
+  </g>
+
+  <text x="525" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#7a7a7c">older customers →</text>
+</svg>
