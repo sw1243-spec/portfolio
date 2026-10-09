@@ -257,7 +257,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".resume section:nth-of-type(3) .title-wrapper h3", "수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-item-title", "SEA SCOUT S-Spoke Camp 최우수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) span", "교육부 · 한국연구재단 · 2026"],
-    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-text", "창업동아리 대상 창업 아이템 발표 대회(2인 1팀). 세이원(SAYWON) 사업모델을 발표해 동남권(부·울·경) Winning Star 본선 진출."],
+    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-text", "창업동아리 대상 창업 아이템 발표 대회(2인 1팀). 창업 아이템의 사업모델을 발표해 동남권(부·울·경) Winning Star 본선 진출."],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) .timeline-item-title", "Anchor Startup League 우수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) span", "부경대 앵커본부 · 교육부 · 2026"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) .timeline-text", "부경대 창업경진대회 A트랙. 해외 공장 품질을 원격으로 관리하는 세이원(SAYWON)으로 국립부경대학교 앵커본부장상 수상, 시상금 50만 원. 후속으로 싱가포르 Anchor Global Camp(2026년 10월)에 선발되어 영문 IR 피칭을 하고 현대자동차그룹 싱가포르 글로벌 혁신센터(HMGICS)와 SWITCH 2026을 방문."],
