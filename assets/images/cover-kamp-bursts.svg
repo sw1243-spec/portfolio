@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#323234"/>
+      <stop offset="1" stop-color="#1c1c1e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="4" fill="#ffdb70" opacity="0.9"/>
+  <text x="64" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="4" fill="#ffdb70">MANUFACTURING AI · KAMP</text>
+  <text x="62" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" fill="#fafafa">Defects Come</text>
+  <text x="62" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" fill="#fafafa">in Bursts</text>
+  <text x="64" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#9a9a9c">Top 10% inspected · 36% of defects · 3.6× random</text>
+
+  <g transform="translate(525,130)">
+    <rect x="0" y="0" width="190" height="148" rx="10" fill="#242426"/>
+    <g transform="translate(14,20)">
+      <!-- shots 38–61 of product cn7 in time order; tall = defective shot -->
+      <!-- shaded: shots the model flags as high risk once the shot-48 result arrives (51–61) -->
+      <rect x="89" y="-6" width="79" height="94" fill="#ffdb70" opacity="0.08"/>
+      <g fill="#5a5a5c"><rect x="0" y="70" width="5" height="18"/><rect x="7" y="70" width="5" height="18"/><rect x="21" y="70" width="5" height="18"/><rect x="28" y="70" width="5" height="18"/><rect x="35" y="70" width="5" height="18"/><rect x="42" y="70" width="5" height="18"/><rect x="49" y="70" width="5" height="18"/><rect x="56" y="70" width="5" height="18"/><rect x="63" y="70" width="5" height="18"/><rect x="77" y="70" width="5" height="18"/><rect x="161" y="70" width="5" height="18"/></g>
+      <!-- defects missed: 40, 48 (outside the 3-shot window), 50 (result not back yet) -->
+      <g fill="#8a8a8c"><rect x="14" y="30" width="5" height="58"/><rect x="70" y="30" width="5" height="58"/><rect x="84" y="30" width="5" height="58"/></g>
+      <!-- defects caught: 51–60 -->
+      <g fill="#ffdb70"><rect x="91" y="30" width="5" height="58"/><rect x="98" y="30" width="5" height="58"/><rect x="105" y="30" width="5" height="58"/><rect x="112" y="30" width="5" height="58"/><rect x="119" y="30" width="5" height="58"/><rect x="126" y="30" width="5" height="58"/><rect x="133" y="30" width="5" height="58"/><rect x="140" y="30" width="5" height="58"/><rect x="147" y="30" width="5" height="58"/><rect x="154" y="30" width="5" height="58"/></g>
+    </g>
+    <rect x="0" y="0" width="190" height="148" rx="10" stroke="#ffdb70" stroke-width="3" fill="none"/>
+  </g>
+
+  <text x="525" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#7a7a7c">shots in time order →</text>
+</svg>

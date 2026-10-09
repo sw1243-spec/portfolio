@@ -298,6 +298,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".project-list .project-item:nth-child(9) .project-highlights li:nth-child(2)", "2024년 QGIS 연구를 원커맨드 파이프라인으로 재구축"],
     [".project-list .project-item:nth-child(10) .project-highlights li:nth-child(1)", "고객이 고령일수록 가맹점이 나가지도 들어오지도 않음"],
     [".project-list .project-item:nth-child(10) .project-highlights li:nth-child(2)", "닫힘만 세는 지표가 안정으로 읽는 5개 구를 포착"],
+    [".project-list .project-item:nth-child(11) .project-highlights li:nth-child(1)", "2캐비티 쌍 구조 발견, 정밀도 76% 뒤의 누수를 밝힘"],
+    [".project-list .project-item:nth-child(11) .project-highlights li:nth-child(2)", "상위 10% 샷만 검사해도 불량 36% 포착"],
     [".filter-list .filter-item:nth-child(1) button", "전체"],
     [".filter-list .filter-item:nth-child(2) button", "웹 앱"],
     [".filter-list .filter-item:nth-child(3) button", "데스크톱 앱"],
@@ -317,6 +319,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".project-list .project-item:nth-child(8) .project-category", "자동화 | Claude · Codex · 최우수상"],
     [".project-list .project-item:nth-child(9) .project-category", "데이터 분석 | Python · GeoPandas · scikit-learn"],
     [".project-list .project-item:nth-child(10) .project-category", "데이터 분석 | Python · 부산 데이터 오픈랩"],
+    [".project-list .project-item:nth-child(11) .project-category", "데이터 분석 | Python · LightGBM · KAMP"],
 
     // Contact
     [".contact .article-title", "연락처"],
