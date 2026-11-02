@@ -257,7 +257,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".resume section:nth-of-type(3) .title-wrapper h3", "수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-item-title", "Anchor Global Camp IR 피칭 우수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) span", "부경대 앵커본부 · 싱가포르 · 2026"],
-    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-text", "싱가포르 Anchor Global Camp에서 해외 공장 품질을 원격으로 관리하는 세이원(SAYWON)을 영어로 IR 피칭해 우수상 수상. 부산연합기술지주의 투자의향서(LOI)도 받음. 법적 구속력은 없고 실제 투자 여부는 별도 심사와 협의로 결정."],
+    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-text", "싱가포르 Anchor Global Camp에서 해외 공장 품질을 원격으로 관리하는 세이원(SAYWON)을 영어로 IR 피칭해 우수상 수상. 부산연합기술지주의 투자의향서(LOI)도 받음."],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) .timeline-item-title", "SEA SCOUT S-Spoke Camp 최우수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) span", "교육부 · 한국연구재단 · 2026"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) .timeline-text", "창업동아리 대상 창업 아이템 발표 대회(2인 1팀). 창업 아이템의 사업모델을 발표해 동남권(부·울·경) Winning Star 본선 진출."],
