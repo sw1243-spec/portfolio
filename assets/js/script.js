@@ -256,7 +256,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
     [".resume section:nth-of-type(3) .title-wrapper h3", "수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-item-title", "PNU 앵커톤 우수상"],
-    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) span", "부산대학교 · 부산앵커센터 · 2026"],
+    [".resume section:nth-of-type(3) .timeline-item:nth-child(1) span", "부산대학교 창업지원단장상 · 2026"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(1) .timeline-text", "부산 지역 앵커사업 대학이 추천한 창업팀이 겨루는 1박 2일 창업 해커톤(2인 1팀). 해외 공장 품질을 원격으로 관리하는 세이원(SAYWON)으로 고객사 미션, 선배창업가의 실제 애로사항을 푸는 밤샘 미션, TIPS 선배창업가·투자사 심사의 IR 발표를 거쳐 우수상 수상."],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) .timeline-item-title", "Anchor Global Camp IR 피칭 우수상"],
     [".resume section:nth-of-type(3) .timeline-item:nth-child(2) span", "부경대 앵커본부 · 싱가포르 · 2026"],
