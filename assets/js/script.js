@@ -315,6 +315,10 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".project-list .project-item:nth-child(10) .project-highlights li:nth-child(2)", "닫힘만 세는 지표가 안정으로 읽는 5개 구를 포착"],
     [".project-list .project-item:nth-child(11) .project-highlights li:nth-child(1)", "2캐비티 쌍 구조 발견, 정밀도 76% 뒤의 누수를 밝힘"],
     [".project-list .project-item:nth-child(11) .project-highlights li:nth-child(2)", "상위 10% 샷만 검사해도 불량 36% 포착"],
+    [".project-list .project-item:nth-child(12) .project-highlights li:nth-child(1)", "광고를 숨기는 수법 11가지 탐지, 심어 둔 광고 28건 모두 검출"],
+    [".project-list .project-item:nth-child(12) .project-highlights li:nth-child(2)", "공공기관 누리집 4곳 160페이지에서 오탐 0건"],
+    [".project-list .project-item:nth-child(13) .project-highlights li:nth-child(1)", "용도에 필요한 신분증 항목만, 정해진 기간만 보여 주는 사본"],
+    [".project-list .project-item:nth-child(13) .project-highlights li:nth-child(2)", "변조·위조·만료·철회된 사본을 ES256 서명으로 걸러 냄"],
     [".filter-list .filter-item:nth-child(1) button", "전체"],
     [".filter-list .filter-item:nth-child(2) button", "웹 앱"],
     [".filter-list .filter-item:nth-child(3) button", "데스크톱 앱"],
@@ -335,6 +339,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
     [".project-list .project-item:nth-child(9) .project-category", "데이터 분석 | Python · GeoPandas · scikit-learn"],
     [".project-list .project-item:nth-child(10) .project-category", "데이터 분석 | Python · 부산 데이터 오픈랩"],
     [".project-list .project-item:nth-child(11) .project-category", "데이터 분석 | Python · LightGBM · KAMP"],
+    [".project-list .project-item:nth-child(12) .project-category", "데스크톱 앱 | Python · Playwright · pywebview"],
+    [".project-list .project-item:nth-child(13) .project-category", "웹 앱 | JavaScript · WebCrypto · SD-JWT"],
 
     // Contact
     [".contact .article-title", "연락처"],
